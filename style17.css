@@ -1,0 +1,97 @@
+*{
+	margin-top: 10px;
+	padding: 0;
+}
+
+html, body {
+	height: 70%;
+	width: 100%;
+	text-align: center;
+}
+form{
+	width: 90%;
+	max-height: 200px;
+	margin: 0 auto;
+}
+/* Form é uma formatação geral, porém abaixo vem as formatações mais especificas*/
+
+form fieldset {
+	padding: 0 20px;
+	border: 1px solid #ccc;
+}
+form legend{
+	text-align: left;
+	font-size: 17px;
+	color: rgb(100, 100, 100);
+}
+form input[type=text]{
+		font-family: tahoma;
+		display: inline-block;
+		margin-top: 10px;
+		width: 80%;
+		padding: 10px 13px;
+		border: 1px solid #ccc;
+	}
+/* O tipo do imput foi chamado dentro das chaves para especificara formatação requerida*/
+
+form input[type=text]:focus{
+	outline: 0;
+}
+/* focus P/ hora que digitar no formulário ele ficar com aspecto de selecionado*/
+/* Form select é para "Qual a sua idade"*/
+
+h2{
+	margin-top: 10px;
+}
+form select{
+	font-family: tahoma;
+	width: calc(80% + 26px);
+	margin-top: 10px;
+	padding: 10px 13px;
+	display: inline-block;
+	border: 1px solid #ccc;
+}
+form select: hover{
+	outline: 0;
+	border: 0;
+}
+h2{
+	margin-top: 10px;
+} 
+/* Imput textarea é para "Possui alguma observação"*/
+form textarea{
+	font-style: tahoma;
+	border: 1px solid #ccc;
+	width: calc(80% + 26px);
+	margin-top: 30px;
+	width: 80%;
+	padding: 10px 13px;
+	resize: none;
+}
+.input{
+	display: inline-block;
+	text-align: left;
+	border: 2px;
+	margin-top: 20px;
+}
+.input span{
+	margin-left: 13px;
+	font-size: 16px;
+	color: rgb(130, 130, 130);
+}
+form input[type=submit]{
+	margin-top: 30px;
+	border: 3px;
+	width: 140px;
+	height: 40px;
+	font-size: 16px;
+	cursor: pointer;
+	border: 7px solid rgb(130, 130, 130);
+	color: white;
+	background-color: purple;
+}
+form input[type=submit]:hover{
+	border: 0;
+	outline: 0;
+	border: 1px solid #c;
+}
